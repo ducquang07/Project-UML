@@ -60435,7 +60435,12 @@
 			stereotype 	"entity")
 		    (object Class "LoaiSanPham"
 			quid       	"5A086F030311"
-			stereotype 	"entity")
+			stereotype 	"entity"
+			class_attributes 	(list class_attribute_list
+			    (object ClassAttribute "MaLoaiSP"
+				quid       	"5A28F1080316")
+			    (object ClassAttribute "TenLoaiSP"
+				quid       	"5A28F10E0146")))
 		    (object Class "HoaDonSi"
 			quid       	"5A0885E60133"
 			stereotype 	"entity")
