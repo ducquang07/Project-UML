@@ -59938,7 +59938,43 @@
 		logical_models 	(list unit_reference_list
 		    (object Class "QuanLiPhieuChiForm"
 			quid       	"59F9F35F005C"
-			stereotype 	"boundary")
+			stereotype 	"boundary"
+			operations 	(list Operations
+			    (object Operation "HienThiDanhSachNCCCanChi"
+				quid       	"5A28F7C800C3"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "HienThiDanhSachPhieuChi"
+				quid       	"5A28F7C90126"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LayThongTinNCC"
+				quid       	"5A28F7CA0151"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LayThongTinPhieuChi"
+				quid       	"5A28F7CB0182"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "XacNhanLuuThongTinPhieuChi"
+				quid       	"5A28F7CC026E"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "XacNhanXoaPhieuChi"
+				quid       	"5A28F7D30240"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "HienThiThongBao"
+				quid       	"5A28F7D402FD"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)))
 		    (object Class "QuanLiPhieuThuForm"
 			quid       	"59FB404301E5"
 			stereotype 	"boundary")

@@ -60036,7 +60036,33 @@
 		logical_models 	(list unit_reference_list
 		    (object Class "QuanLiPhieuChiControl"
 			quid       	"59F9F5C10348"
-			stereotype 	"control")
+			stereotype 	"control"
+			operations 	(list Operations
+			    (object Operation "LayDanhSachNCCCanChi"
+				quid       	"5A28F8820063"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LayDanhSachPhieuChi"
+				quid       	"5A28F88301B3"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "KiemTraThongTinPhieuChi"
+				quid       	"5A28F886014E"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LuuPhieuChi"
+				quid       	"5A28F88701A3"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "XoaPhieuChi"
+				quid       	"5A28F888023A"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)))
 		    (object Class "QuanLiPhieuThuControl"
 			quid       	"59FB406A016C"
 			stereotype 	"control")
