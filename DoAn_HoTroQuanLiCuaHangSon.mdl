@@ -60138,7 +60138,20 @@
 				quid       	"5A28F0220076")))
 		    (object Class "PhieuThu"
 			quid       	"59FB3F5E033E"
-			stereotype 	"entity")
+			stereotype 	"entity"
+			class_attributes 	(list class_attribute_list
+			    (object ClassAttribute "MaPT"
+				quid       	"5A292A7D015D"
+				type       	"String")
+			    (object ClassAttribute "LyDoThu"
+				quid       	"5A292A7E0147"
+				type       	"String")
+			    (object ClassAttribute "TongTienThu"
+				quid       	"5A292A7F0136"
+				type       	"Integer")
+			    (object ClassAttribute "NgayThu"
+				quid       	"5A292A80012D"
+				type       	"Date")))
 		    (object Class "DonDatHang"
 			quid       	"5A0053AC03D7"
 			stereotype 	"entity")
