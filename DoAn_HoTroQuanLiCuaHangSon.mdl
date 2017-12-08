@@ -43445,6 +43445,24 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5A0057F803A5"
+					compartment 	(object Compartment
+					    Parent_View 	@2001
+					    location   	(734, 919)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	12
+					    max_width  	471
+					    justify    	1)
 					width      	470
 					height     	732
 					annotation 	8
@@ -43465,10 +43483,10 @@
 					    default_color 	TRUE)
 					label      	(object ItemLabel
 					    Parent_View 	@2002
-					    location   	(1297, 141)
+					    location   	(1296, 141)
 					    fill_color 	13434879
 					    nlines     	1
-					    max_width  	446
+					    max_width  	448
 					    justify    	0
 					    label      	"QuanlisanphamControl")
 					icon       	"control"
@@ -43476,7 +43494,25 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5A045BAB020B"
-					width      	464
+					compartment 	(object Compartment
+					    Parent_View 	@2002
+					    location   	(1296, 246)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	16777215
+					    anchor     	2
+					    nlines     	5
+					    max_width  	431
+					    justify    	1)
+					width      	466
 					height     	382
 					annotation 	8
 					autoResize 	TRUE)
@@ -43507,6 +43543,24 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5A045B6E01BE"
+					compartment 	(object Compartment
+					    Parent_View 	@2003
+					    location   	(243, 221)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	16777215
+					    anchor     	2
+					    nlines     	6
+					    max_width  	503
+					    justify    	1)
 					width      	524
 					height     	432
 					annotation 	8
@@ -43536,7 +43590,7 @@
 						supplier   	@2002
 						vertices   	(list Points
 						    (1022, 320)
-						    (1287, 320))
+						    (1286, 320))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$287" @2006
 						Parent_View 	@2004
@@ -63906,7 +63960,7 @@
 						supplier   	"$UNNAMED$383"
 						quidu      	"5A2AAFF200C4"
 						messages   	(list Messages
-						    (object Message "Kiem tra thoi gian"
+						    (object Message "Kiem tra thoi gian thong ke"
 							quid       	"5A2AAFF200A9"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -64477,7 +64531,7 @@
 					origin     	(976, 1291)
 					terminus   	(1126, 1291)
 					ordinal    	7)
-				    (object InterMessView "Kiem tra thoi gian" @3110
+				    (object InterMessView "Kiem tra thoi gian thong ke" @3110
 					location   	(16, 521)
 					font       	(object Font
 					    size       	10
@@ -64503,9 +64557,9 @@
 					    quidu      	"5A2AAFF200A9"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	363
+					    max_width  	525
 					    justify    	0
-					    label      	"Kiem tra thoi gian"
+					    label      	"Kiem tra thoi gian thong ke"
 					    pctDist    	0.500000
 					    height     	45
 					    orientation 	0)
@@ -64761,14 +64815,26 @@
 			quid       	"5A2AB02303DB"
 			exportControl 	"Public"
 			logical_models 	(list unit_reference_list
+			    (object Association "$UNNAMED$385"
+				quid       	"5A2ABBE70083"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$386"
+					quid       	"5A2ABBE703D7"
+					supplier   	"Logical View::Control::ThongKeLuongHangBanNhieuNhatTrongThangControl"
+					quidu      	"5A2AAB9D0174"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$387"
+					quid       	"5A2ABBE703D9"
+					supplier   	"Logical View::Boundary::ThongKeLuongHangBanNhieuNhatTrongThangForm"
+					quidu      	"5A2AAA770311")))
 			    (object Mechanism @3124
 				logical_models 	(list unit_reference_list
-				    (object Object "$UNNAMED$385"
+				    (object Object "$UNNAMED$388"
 					quid       	"5A2AB0580176"
 					collaborators 	(list link_list
 					    (object Link
 						quid       	"5A2AB0580177"
-						supplier   	"$UNNAMED$386"
+						supplier   	"$UNNAMED$389"
 						quidu      	"5A2AB0580180"
 						messages   	(list Messages
 						    (object Message "Chon thang thong ke"
@@ -64794,12 +64860,12 @@
 					persistence 	"Transient"
 					creationObj 	FALSE
 					multi      	FALSE)
-				    (object Object "$UNNAMED$386"
+				    (object Object "$UNNAMED$389"
 					quid       	"5A2AB0580180"
 					collaborators 	(list link_list
 					    (object Link
 						quid       	"5A2AB058017F"
-						supplier   	"$UNNAMED$387"
+						supplier   	"$UNNAMED$390"
 						quidu      	"5A2AB058019D"
 						messages   	(list Messages
 						    (object Message "Kiem tra thoi gian thong ke"
@@ -64858,7 +64924,7 @@
 							creation   	FALSE)))
 					    (object Link
 						quid       	"5A2AB0580181"
-						supplier   	"$UNNAMED$386"
+						supplier   	"$UNNAMED$389"
 						quidu      	"5A2AB0580180"
 						messages   	(list Messages
 						    (object Message "Hien thi giao dien"
@@ -64890,7 +64956,7 @@
 							creation   	FALSE)))
 					    (object Link
 						quid       	"5A2AB0580188"
-						supplier   	"$UNNAMED$386"
+						supplier   	"$UNNAMED$389"
 						quidu      	"5A2AB0580180"
 						messages   	(list Messages
 						    (object Message "Hien thi danh sach so luong san pham da ban si"
@@ -64907,12 +64973,12 @@
 					persistence 	"Transient"
 					creationObj 	FALSE
 					multi      	FALSE)
-				    (object Object "$UNNAMED$387"
+				    (object Object "$UNNAMED$390"
 					quid       	"5A2AB058019D"
 					collaborators 	(list link_list
 					    (object Link
 						quid       	"5A2AB058019C"
-						supplier   	"$UNNAMED$388"
+						supplier   	"$UNNAMED$391"
 						quidu      	"5A2AB05801A7"
 						messages   	(list Messages
 						    (object Message "Lay danh sach san pham da ban le"
@@ -64926,7 +64992,7 @@
 							creation   	FALSE)))
 					    (object Link
 						quid       	"5A2AB058019E"
-						supplier   	"$UNNAMED$389"
+						supplier   	"$UNNAMED$392"
 						quidu      	"5A2AB05801B2"
 						messages   	(list Messages
 						    (object Message "Lay danh sach san pham da ban sii"
@@ -64952,12 +65018,12 @@
 					persistence 	"Transient"
 					creationObj 	FALSE
 					multi      	FALSE)
-				    (object Object "$UNNAMED$388"
+				    (object Object "$UNNAMED$391"
 					quid       	"5A2AB05801A7"
 					collaborators 	(list link_list
 					    (object Link
 						quid       	"5A2AB05801A6"
-						supplier   	"$UNNAMED$387"
+						supplier   	"$UNNAMED$390"
 						quidu      	"5A2AB058019D"
 						messages   	(list Messages
 						    (object Message ""
@@ -64974,7 +65040,7 @@
 					persistence 	"Transient"
 					creationObj 	FALSE
 					multi      	FALSE)
-				    (object Object "$UNNAMED$389"
+				    (object Object "$UNNAMED$392"
 					quid       	"5A2AB05801B2"
 					class      	"Logical View::Entity::ChiTietHoaDonSi"
 					quidu      	"5A2AAC870298"
@@ -64982,6 +65048,270 @@
 					creationObj 	FALSE
 					multi      	FALSE))))
 			logical_presentations 	(list unit_reference_list
+			    (object ClassDiagram "VOPC"
+				quid       	"5A2AB8C30149"
+				title      	"VOPC"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::Entity::ChiTietHoaDonSi" @3125
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1472, 1248)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@3125
+					    location   	(1298, 1044)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	348
+					    justify    	0
+					    label      	"ChiTietHoaDonSi")
+					icon       	"Entity"
+					icon_style 	"None"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5A2AAC870298"
+					compartment 	(object Compartment
+					    Parent_View 	@3125
+					    location   	(1298, 1149)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	6
+					    max_width  	228
+					    justify    	1)
+					width      	366
+					height     	432
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Entity::ChiTietHoaDonLe" @3126
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2256, 1248)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@3126
+					    location   	(2084, 1044)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	344
+					    justify    	0
+					    label      	"ChiTietHoaDonLe")
+					icon       	"Entity"
+					icon_style 	"None"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5A2AAC6E01D1"
+					compartment 	(object Compartment
+					    Parent_View 	@3126
+					    location   	(2084, 1149)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	6
+					    max_width  	228
+					    justify    	1)
+					width      	362
+					height     	432
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Boundary::ThongKeLuongHangBanNhieuNhatTrongThangForm" @3127
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(640, 400)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@3127
+					    location   	(155, 196)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	970
+					    justify    	0
+					    label      	"ThongKeLuongHangBanNhieuNhatTrongThangForm")
+					icon       	"Boundary"
+					icon_style 	"None"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5A2AAA770311"
+					compartment 	(object Compartment
+					    Parent_View 	@3127
+					    location   	(155, 301)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	6
+					    max_width  	750
+					    justify    	1)
+					width      	988
+					height     	432
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Control::ThongKeLuongHangBanNhieuNhatTrongThangControl" @3128
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(1920, 384)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@3128
+					    location   	(1425, 230)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	990
+					    justify    	0
+					    label      	"ThongKeLuongHangBanNhieuNhatTrongThangControl")
+					icon       	"Control"
+					icon_style 	"None"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5A2AAB9D0174"
+					compartment 	(object Compartment
+					    Parent_View 	@3128
+					    location   	(1425, 335)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	4
+					    max_width  	681
+					    justify    	1)
+					width      	1008
+					height     	332
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$385" @3129
+					location   	(1274, 391)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"5A2ABBE70083"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$386" @3130
+						Parent_View 	@3129
+						location   	(634, -9)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5A2ABBE703D7"
+						client     	@3129
+						supplier   	@3128
+						vertices   	(list Points
+						    (1274, 391)
+						    (1415, 390))
+						line_style 	0)
+					    (object RoleView "$UNNAMED$387" @3131
+						Parent_View 	@3129
+						location   	(634, -9)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"5A2ABBE703D9"
+						client     	@3129
+						supplier   	@3127
+						vertices   	(list Points
+						    (1274, 391)
+						    (1134, 393))
+						line_style 	0)))
+				    (object UsesView "" @3132
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"5A2ABBED01BC"
+					client     	@3128
+					supplier   	@3125
+					vertices   	(list Points
+					    (1833, 550)
+					    (1584, 1031))
+					line_style 	0)
+				    (object UsesView "" @3133
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"5A2ABBF1036A"
+					client     	@3128
+					supplier   	@3126
+					vertices   	(list Points
+					    (1984, 550)
+					    (2171, 1031))
+					line_style 	0)))
 			    (object InteractionDiagram "Thong ke luong hang ban nhieu nhat trong thang"
 				mechanism_ref 	@3124
 				quid       	"5A2AB03202D7"
@@ -64992,7 +65322,7 @@
 				origin_x   	0
 				origin_y   	0
 				items      	(list diagram_item_list
-				    (object InterObjView "$UNNAMED$385" @3125
+				    (object InterObjView "$UNNAMED$388" @3134
 					location   	(336, 256)
 					font       	(object Font
 					    size       	10
@@ -65004,7 +65334,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@3125
+					    Parent_View 	@3134
 					    location   	(336, 281)
 					    anchor_loc 	1
 					    nlines     	2
@@ -65022,21 +65352,21 @@
 					icon_width 	108
 					icon_y_offset 	0
 					annotation 	1
-					Focus_Of_Control 	(object Focus_Of_Control "" @3126
+					Focus_Of_Control 	(object Focus_Of_Control "" @3135
 					    location   	(336, 416)
 					    line_color 	3342489
-					    InterObjView 	@3125
+					    InterObjView 	@3134
 					    height     	90
 					    y_coord    	0
 					    Nested     	FALSE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3127
+					Focus_Of_Control 	(object Focus_Of_Control "" @3136
 					    location   	(336, 1888)
 					    line_color 	3342489
-					    InterObjView 	@3125
+					    InterObjView 	@3134
 					    height     	90
 					    y_coord    	0
 					    Nested     	FALSE))
-				    (object InterObjView "$UNNAMED$386" @3128
+				    (object InterObjView "$UNNAMED$389" @3137
 					location   	(1104, 224)
 					font       	(object Font
 					    size       	10
@@ -65048,7 +65378,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@3128
+					    Parent_View 	@3137
 					    location   	(1104, 250)
 					    anchor_loc 	1
 					    nlines     	2
@@ -65066,70 +65396,70 @@
 					icon_width 	217
 					icon_y_offset 	0
 					annotation 	1
-					Focus_Of_Control 	(object Focus_Of_Control "" @3129
+					Focus_Of_Control 	(object Focus_Of_Control "" @3138
 					    location   	(1104, 416)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	405
 					    y_coord    	315
 					    Nested     	FALSE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3130
+					Focus_Of_Control 	(object Focus_Of_Control "" @3139
 					    location   	(1104, 624)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	1
 					    y_coord    	-89
 					    Nested     	TRUE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3131
+					Focus_Of_Control 	(object Focus_Of_Control "" @3140
 					    location   	(1104, 752)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	90
 					    y_coord    	0
 					    Nested     	TRUE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3132
+					Focus_Of_Control 	(object Focus_Of_Control "" @3141
 					    location   	(1104, 960)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	405
 					    y_coord    	315
 					    Nested     	FALSE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3133
+					Focus_Of_Control 	(object Focus_Of_Control "" @3142
 					    location   	(1104, 1296)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	514
 					    y_coord    	424
 					    Nested     	TRUE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3134
+					Focus_Of_Control 	(object Focus_Of_Control "" @3143
 					    location   	(1104, 1744)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	90
 					    y_coord    	0
 					    Nested     	TRUE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3135
+					Focus_Of_Control 	(object Focus_Of_Control "" @3144
 					    location   	(1104, 1888)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	412
 					    y_coord    	322
 					    Nested     	FALSE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3136
+					Focus_Of_Control 	(object Focus_Of_Control "" @3145
 					    location   	(1104, 2112)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	1
 					    y_coord    	-89
 					    Nested     	TRUE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3137
+					Focus_Of_Control 	(object Focus_Of_Control "" @3146
 					    location   	(1104, 2240)
 					    line_color 	3342489
-					    InterObjView 	@3128
+					    InterObjView 	@3137
 					    height     	90
 					    y_coord    	0
 					    Nested     	TRUE))
-				    (object InterObjView "$UNNAMED$387" @3138
+				    (object InterObjView "$UNNAMED$390" @3147
 					location   	(2064, 224)
 					font       	(object Font
 					    size       	10
@@ -65141,7 +65471,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@3138
+					    Parent_View 	@3147
 					    location   	(2064, 249)
 					    anchor_loc 	1
 					    nlines     	2
@@ -65159,49 +65489,49 @@
 					icon_width 	145
 					icon_y_offset 	0
 					annotation 	1
-					Focus_Of_Control 	(object Focus_Of_Control "" @3139
+					Focus_Of_Control 	(object Focus_Of_Control "" @3148
 					    location   	(2064, 528)
 					    line_color 	3342489
-					    InterObjView 	@3138
+					    InterObjView 	@3147
 					    height     	98
 					    y_coord    	8
 					    Nested     	FALSE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3140
+					Focus_Of_Control 	(object Focus_Of_Control "" @3149
 					    location   	(2064, 960)
 					    line_color 	3342489
-					    InterObjView 	@3138
+					    InterObjView 	@3147
 					    height     	308
 					    y_coord    	218
 					    Nested     	FALSE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3141
+					Focus_Of_Control 	(object Focus_Of_Control "" @3150
 					    location   	(2064, 1168)
 					    line_color 	3342489
-					    InterObjView 	@3138
+					    InterObjView 	@3147
 					    height     	1
 					    y_coord    	-89
 					    Nested     	TRUE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3142
+					Focus_Of_Control 	(object Focus_Of_Control "" @3151
 					    location   	(2064, 1408)
 					    line_color 	3342489
-					    InterObjView 	@3138
+					    InterObjView 	@3147
 					    height     	308
 					    y_coord    	218
 					    Nested     	FALSE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3143
+					Focus_Of_Control 	(object Focus_Of_Control "" @3152
 					    location   	(2064, 1616)
 					    line_color 	3342489
-					    InterObjView 	@3138
+					    InterObjView 	@3147
 					    height     	1
 					    y_coord    	-89
 					    Nested     	TRUE)
-					Focus_Of_Control 	(object Focus_Of_Control "" @3144
+					Focus_Of_Control 	(object Focus_Of_Control "" @3153
 					    location   	(2064, 2000)
 					    line_color 	3342489
-					    InterObjView 	@3138
+					    InterObjView 	@3147
 					    height     	105
 					    y_coord    	15
 					    Nested     	FALSE))
-				    (object InterObjView "$UNNAMED$388" @3145
+				    (object InterObjView "$UNNAMED$391" @3154
 					location   	(2848, 224)
 					font       	(object Font
 					    size       	10
@@ -65213,7 +65543,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@3145
+					    Parent_View 	@3154
 					    location   	(2848, 250)
 					    anchor_loc 	1
 					    nlines     	2
@@ -65231,14 +65561,14 @@
 					icon_width 	142
 					icon_y_offset 	0
 					annotation 	1
-					Focus_Of_Control 	(object Focus_Of_Control "" @3146
+					Focus_Of_Control 	(object Focus_Of_Control "" @3155
 					    location   	(2848, 1072)
 					    line_color 	3342489
-					    InterObjView 	@3145
+					    InterObjView 	@3154
 					    height     	98
 					    y_coord    	8
 					    Nested     	FALSE))
-				    (object InterObjView "$UNNAMED$389" @3147
+				    (object InterObjView "$UNNAMED$392" @3156
 					location   	(3424, 240)
 					font       	(object Font
 					    size       	10
@@ -65250,7 +65580,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@3147
+					    Parent_View 	@3156
 					    location   	(3424, 266)
 					    anchor_loc 	1
 					    nlines     	2
@@ -65268,14 +65598,14 @@
 					icon_width 	142
 					icon_y_offset 	0
 					annotation 	1
-					Focus_Of_Control 	(object Focus_Of_Control "" @3148
+					Focus_Of_Control 	(object Focus_Of_Control "" @3157
 					    location   	(3424, 1504)
 					    line_color 	3342489
-					    InterObjView 	@3147
+					    InterObjView 	@3156
 					    height     	111
 					    y_coord    	21
 					    Nested     	FALSE))
-				    (object Label @3149
+				    (object Label @3158
 					location   	(1185, 544)
 					font       	(object Font
 					    size       	10
@@ -65290,7 +65620,7 @@
 					max_width  	269
 					justify    	1
 					label      	"[Hop le]")
-				    (object InterMessView "Chon thang thong ke" @3150
+				    (object InterMessView "Chon thang thong ke" @3159
 					location   	(16, 416)
 					font       	(object Font
 					    size       	10
@@ -65301,8 +65631,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3151
-					    Parent_View 	@3150
+					label      	(object SegLabel @3160
+					    Parent_View 	@3159
 					    location   	(719, 372)
 					    font       	(object Font
 						size       	10
@@ -65323,14 +65653,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3125
-					supplier   	@3128
-					Focus_Src  	@3126
-					Focus_Entry 	@3129
+					client     	@3134
+					supplier   	@3137
+					Focus_Src  	@3135
+					Focus_Entry 	@3138
 					origin     	(351, 416)
 					terminus   	(1088, 416)
 					ordinal    	0)
-				    (object SelfMessView "Hien thi giao dien" @3152
+				    (object SelfMessView "Hien thi giao dien" @3161
 					location   	(16, 731)
 					font       	(object Font
 					    size       	10
@@ -65341,8 +65671,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3153
-					    Parent_View 	@3152
+					label      	(object SegLabel @3162
+					    Parent_View 	@3161
 					    location   	(1195, 687)
 					    font       	(object Font
 						size       	10
@@ -65363,14 +65693,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3128
-					Focus_Src  	@3129
-					Focus_Entry 	@3131
+					client     	@3137
+					supplier   	@3137
+					Focus_Src  	@3138
+					Focus_Entry 	@3140
 					origin     	(1120, 731)
 					terminus   	(1270, 731)
 					ordinal    	3)
-				    (object InterMessView "Yeu cau thong ke" @3154
+				    (object InterMessView "Yeu cau thong ke" @3163
 					location   	(16, 1888)
 					font       	(object Font
 					    size       	10
@@ -65381,8 +65711,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3155
-					    Parent_View 	@3154
+					label      	(object SegLabel @3164
+					    Parent_View 	@3163
 					    location   	(719, 1844)
 					    font       	(object Font
 						size       	10
@@ -65403,14 +65733,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3125
-					supplier   	@3128
-					Focus_Src  	@3127
-					Focus_Entry 	@3135
+					client     	@3134
+					supplier   	@3137
+					Focus_Src  	@3136
+					Focus_Entry 	@3144
 					origin     	(351, 1888)
 					terminus   	(1088, 1888)
 					ordinal    	12)
-				    (object SelfMessView "Hien thi thong bao thanh cong" @3156
+				    (object SelfMessView "Hien thi thong bao thanh cong" @3165
 					location   	(16, 2210)
 					font       	(object Font
 					    size       	10
@@ -65421,8 +65751,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3157
-					    Parent_View 	@3156
+					label      	(object SegLabel @3166
+					    Parent_View 	@3165
 					    location   	(1195, 2166)
 					    font       	(object Font
 						size       	10
@@ -65443,14 +65773,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3128
-					Focus_Src  	@3135
-					Focus_Entry 	@3137
+					client     	@3137
+					supplier   	@3137
+					Focus_Src  	@3144
+					Focus_Entry 	@3146
 					origin     	(1120, 2210)
 					terminus   	(1270, 2210)
 					ordinal    	15)
-				    (object SelfMessView "Hien thi danh sach so luong san pham da ban le" @3158
+				    (object SelfMessView "Hien thi danh sach so luong san pham da ban le" @3167
 					location   	(16, 1275)
 					font       	(object Font
 					    size       	10
@@ -65461,8 +65791,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3159
-					    Parent_View 	@3158
+					label      	(object SegLabel @3168
+					    Parent_View 	@3167
 					    location   	(1564, 1233)
 					    font       	(object Font
 						size       	10
@@ -65483,14 +65813,14 @@
 					    height     	43
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3128
-					Focus_Src  	@3132
-					Focus_Entry 	@3133
+					client     	@3137
+					supplier   	@3137
+					Focus_Src  	@3141
+					Focus_Entry 	@3142
 					origin     	(1120, 1275)
 					terminus   	(1270, 1275)
 					ordinal    	7)
-				    (object SelfMessView "Hien thi danh sach so luong san pham da ban si" @3160
+				    (object SelfMessView "Hien thi danh sach so luong san pham da ban si" @3169
 					location   	(16, 1720)
 					font       	(object Font
 					    size       	10
@@ -65501,8 +65831,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3161
-					    Parent_View 	@3160
+					label      	(object SegLabel @3170
+					    Parent_View 	@3169
 					    location   	(1564, 1677)
 					    font       	(object Font
 						size       	10
@@ -65523,14 +65853,14 @@
 					    height     	44
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3128
-					Focus_Src  	@3133
-					Focus_Entry 	@3134
+					client     	@3137
+					supplier   	@3137
+					Focus_Src  	@3142
+					Focus_Entry 	@3143
 					origin     	(1120, 1720)
 					terminus   	(1270, 1720)
 					ordinal    	11)
-				    (object InterMessView "Kiem tra thoi gian thong ke" @3162
+				    (object InterMessView "Kiem tra thoi gian thong ke" @3171
 					location   	(16, 521)
 					font       	(object Font
 					    size       	10
@@ -65541,8 +65871,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3163
-					    Parent_View 	@3162
+					label      	(object SegLabel @3172
+					    Parent_View 	@3171
 					    location   	(1583, 477)
 					    font       	(object Font
 						size       	10
@@ -65563,14 +65893,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3138
-					Focus_Src  	@3129
-					Focus_Entry 	@3139
+					client     	@3137
+					supplier   	@3147
+					Focus_Src  	@3138
+					Focus_Entry 	@3148
 					origin     	(1119, 521)
 					terminus   	(2048, 521)
 					ordinal    	1)
-				    (object InterMessView "" @3164
+				    (object InterMessView "" @3173
 					location   	(16, 626)
 					font       	(object Font
 					    size       	10
@@ -65581,8 +65911,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3165
-					    Parent_View 	@3164
+					label      	(object SegLabel @3174
+					    Parent_View 	@3173
 					    location   	(1584, 582)
 					    font       	(object Font
 						size       	10
@@ -65603,14 +65933,14 @@
 					    height     	45
 					    orientation 	1)
 					line_color 	3342489
-					client     	@3138
-					supplier   	@3128
-					Focus_Src  	@3139
-					Focus_Entry 	@3130
+					client     	@3147
+					supplier   	@3137
+					Focus_Src  	@3148
+					Focus_Entry 	@3139
 					origin     	(2048, 626)
 					terminus   	(1120, 626)
 					ordinal    	2)
-				    (object InterMessView "Lay danh sach san pham da ban le" @3166
+				    (object InterMessView "Lay danh sach san pham da ban le" @3175
 					location   	(16, 960)
 					font       	(object Font
 					    size       	10
@@ -65621,8 +65951,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3167
-					    Parent_View 	@3166
+					label      	(object SegLabel @3176
+					    Parent_View 	@3175
 					    location   	(1583, 916)
 					    font       	(object Font
 						size       	10
@@ -65643,14 +65973,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3138
-					Focus_Src  	@3132
-					Focus_Entry 	@3140
+					client     	@3137
+					supplier   	@3147
+					Focus_Src  	@3141
+					Focus_Entry 	@3149
 					origin     	(1119, 960)
 					terminus   	(2048, 960)
 					ordinal    	4)
-				    (object InterMessView "Yeu cau thong ke" @3168
+				    (object InterMessView "Yeu cau thong ke" @3177
 					location   	(16, 2000)
 					font       	(object Font
 					    size       	10
@@ -65661,8 +65991,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3169
-					    Parent_View 	@3168
+					label      	(object SegLabel @3178
+					    Parent_View 	@3177
 					    location   	(1583, 1956)
 					    font       	(object Font
 						size       	10
@@ -65683,14 +66013,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3138
-					Focus_Src  	@3135
-					Focus_Entry 	@3144
+					client     	@3137
+					supplier   	@3147
+					Focus_Src  	@3144
+					Focus_Entry 	@3153
 					origin     	(1119, 2000)
 					terminus   	(2048, 2000)
 					ordinal    	13)
-				    (object InterMessView "" @3170
+				    (object InterMessView "" @3179
 					location   	(16, 2105)
 					font       	(object Font
 					    size       	10
@@ -65701,8 +66031,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3171
-					    Parent_View 	@3170
+					label      	(object SegLabel @3180
+					    Parent_View 	@3179
 					    location   	(1584, 2061)
 					    font       	(object Font
 						size       	10
@@ -65723,14 +66053,14 @@
 					    height     	45
 					    orientation 	1)
 					line_color 	3342489
-					client     	@3138
-					supplier   	@3128
-					Focus_Src  	@3144
-					Focus_Entry 	@3136
+					client     	@3147
+					supplier   	@3137
+					Focus_Src  	@3153
+					Focus_Entry 	@3145
 					origin     	(2048, 2105)
 					terminus   	(1120, 2105)
 					ordinal    	14)
-				    (object InterMessView "Lay danh sach san pham da ban si" @3172
+				    (object InterMessView "Lay danh sach san pham da ban si" @3181
 					location   	(16, 1405)
 					font       	(object Font
 					    size       	10
@@ -65741,8 +66071,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3173
-					    Parent_View 	@3172
+					label      	(object SegLabel @3182
+					    Parent_View 	@3181
 					    location   	(1583, 1361)
 					    font       	(object Font
 						size       	10
@@ -65763,14 +66093,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3128
-					supplier   	@3138
-					Focus_Src  	@3133
-					Focus_Entry 	@3142
+					client     	@3137
+					supplier   	@3147
+					Focus_Src  	@3142
+					Focus_Entry 	@3151
 					origin     	(1119, 1405)
 					terminus   	(2048, 1405)
 					ordinal    	8)
-				    (object InterMessView "Lay danh sach san pham da ban le" @3174
+				    (object InterMessView "Lay danh sach san pham da ban le" @3183
 					location   	(16, 1065)
 					font       	(object Font
 					    size       	10
@@ -65781,8 +66111,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3175
-					    Parent_View 	@3174
+					label      	(object SegLabel @3184
+					    Parent_View 	@3183
 					    location   	(2455, 1021)
 					    font       	(object Font
 						size       	10
@@ -65803,14 +66133,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3138
-					supplier   	@3145
-					Focus_Src  	@3140
-					Focus_Entry 	@3146
+					client     	@3147
+					supplier   	@3154
+					Focus_Src  	@3149
+					Focus_Entry 	@3155
 					origin     	(2079, 1065)
 					terminus   	(2832, 1065)
 					ordinal    	5)
-				    (object InterMessView "" @3176
+				    (object InterMessView "" @3185
 					location   	(16, 1170)
 					font       	(object Font
 					    size       	10
@@ -65821,8 +66151,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3177
-					    Parent_View 	@3176
+					label      	(object SegLabel @3186
+					    Parent_View 	@3185
 					    location   	(2456, 1126)
 					    font       	(object Font
 						size       	10
@@ -65843,14 +66173,14 @@
 					    height     	45
 					    orientation 	1)
 					line_color 	3342489
-					client     	@3145
-					supplier   	@3138
-					Focus_Src  	@3146
-					Focus_Entry 	@3141
+					client     	@3154
+					supplier   	@3147
+					Focus_Src  	@3155
+					Focus_Entry 	@3150
 					origin     	(2832, 1170)
 					terminus   	(2080, 1170)
 					ordinal    	6)
-				    (object InterMessView "Lay danh sach san pham da ban sii" @3178
+				    (object InterMessView "Lay danh sach san pham da ban sii" @3187
 					location   	(16, 1510)
 					font       	(object Font
 					    size       	10
@@ -65861,8 +66191,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3179
-					    Parent_View 	@3178
+					label      	(object SegLabel @3188
+					    Parent_View 	@3187
 					    location   	(2743, 1466)
 					    font       	(object Font
 						size       	10
@@ -65883,14 +66213,14 @@
 					    height     	45
 					    orientation 	0)
 					line_color 	3342489
-					client     	@3138
-					supplier   	@3147
-					Focus_Src  	@3142
-					Focus_Entry 	@3148
+					client     	@3147
+					supplier   	@3156
+					Focus_Src  	@3151
+					Focus_Entry 	@3157
 					origin     	(2079, 1510)
 					terminus   	(3408, 1510)
 					ordinal    	9)
-				    (object InterMessView "" @3180
+				    (object InterMessView "" @3189
 					location   	(16, 1615)
 					font       	(object Font
 					    size       	10
@@ -65901,8 +66231,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @3181
-					    Parent_View 	@3180
+					label      	(object SegLabel @3190
+					    Parent_View 	@3189
 					    location   	(2744, 1571)
 					    font       	(object Font
 						size       	10
@@ -65923,10 +66253,10 @@
 					    height     	45
 					    orientation 	1)
 					line_color 	3342489
-					client     	@3147
-					supplier   	@3138
-					Focus_Src  	@3148
-					Focus_Entry 	@3143
+					client     	@3156
+					supplier   	@3147
+					Focus_Src  	@3157
+					Focus_Entry 	@3152
 					origin     	(3408, 1615)
 					terminus   	(2080, 1615)
 					ordinal    	10))))))
@@ -66321,7 +66651,33 @@
 			stereotype 	"boundary")
 		    (object Class "ThongKeLuongHangBanNhieuNhatTrongThangForm"
 			quid       	"5A2AAA770311"
-			stereotype 	"Boundary"))
+			stereotype 	"Boundary"
+			operations 	(list Operations
+			    (object Operation "LayDanhSachSanPhamDaBanLe"
+				quid       	"5A2AB447011D"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "HienThiThongBao"
+				quid       	"5A2AB4A60123"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LayDanhSachSanPhamDaBanSi"
+				quid       	"5A2AB4B2004C"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "HienThiDanhSachSanPhamDaBanLe"
+				quid       	"5A2AB598028C"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "HienThiDanhSachSanPhamDaBanSi"
+				quid       	"5A2AB5A70025"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0))))
 		logical_presentations 	(list unit_reference_list))
 	    (object Class_Category "Control"
 		quid       	"59F9F5B0032D"
@@ -66753,7 +67109,32 @@
 			stereotype 	"Control")
 		    (object Class "ThongKeLuongHangBanNhieuNhatTrongThangControl"
 			quid       	"5A2AAB9D0174"
-			stereotype 	"Control"))
+			stereotype 	"Control"
+			used_nodes 	(list uses_relationship_list
+			    (object Uses_Relationship
+				quid       	"5A2ABBED01BC"
+				supplier   	"Logical View::Entity::ChiTietHoaDonSi"
+				quidu      	"5A2AAC870298")
+			    (object Uses_Relationship
+				quid       	"5A2ABBF1036A"
+				supplier   	"Logical View::Entity::ChiTietHoaDonLe"
+				quidu      	"5A2AAC6E01D1"))
+			operations 	(list Operations
+			    (object Operation "KiemTraThoiGianThongKe"
+				quid       	"5A2AB63B020C"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LayDanhSachSanPhamDaBanLe"
+				quid       	"5A2AB8930141"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LayDanhSachSanPhamDaBanSi"
+				quid       	"5A2AB8B20319"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0))))
 		logical_presentations 	(list unit_reference_list))
 	    (object Class_Category "Entity"
 		quid       	"59F9F6A901A8"
@@ -67108,10 +67489,32 @@
 			stereotype 	"entity")
 		    (object Class "ChiTietHoaDonLe"
 			quid       	"5A2AAC6E01D1"
-			stereotype 	"Entity")
+			stereotype 	"Entity"
+			class_attributes 	(list class_attribute_list
+			    (object ClassAttribute "MaSP"
+				quid       	"5A2ABAC8018E")
+			    (object ClassAttribute "SoHDL"
+				quid       	"5A2ABAD70277")
+			    (object ClassAttribute "SoLuong"
+				quid       	"5A2ABAE200D1")
+			    (object ClassAttribute "ThanhTien"
+				quid       	"5A2ABB660286")
+			    (object ClassAttribute "DonGia"
+				quid       	"5A2ABB7B03DE")))
 		    (object Class "ChiTietHoaDonSi"
 			quid       	"5A2AAC870298"
-			stereotype 	"Entity")
+			stereotype 	"Entity"
+			class_attributes 	(list class_attribute_list
+			    (object ClassAttribute "MaSP"
+				quid       	"5A2ABB820105")
+			    (object ClassAttribute "SoHDS"
+				quid       	"5A2ABB8A00D4")
+			    (object ClassAttribute "SoLuong"
+				quid       	"5A2ABB920146")
+			    (object ClassAttribute "ThanhTien"
+				quid       	"5A2ABB990201")
+			    (object ClassAttribute "DonGia"
+				quid       	"5A2ABB9F014A")))
 		    (object Class "TonKhoNgay"
 			quid       	"5A2AAC990126"
 			stereotype 	"Entity")
@@ -67129,7 +67532,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Logical View::java" @3182
+		    (object CategoryView "Logical View::java" @3191
 			location   	(208, 272)
 			font       	(object Font
 			    size       	10
@@ -67141,7 +67544,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@3182
+			    Parent_View 	@3191
 			    location   	(64, 188)
 			    nlines     	2
 			    max_width  	288
@@ -67153,7 +67556,7 @@
 			quidu      	"39C92661003B"
 			width      	300
 			height     	180)
-		    (object CategoryView "Logical View::javax" @3183
+		    (object CategoryView "Logical View::javax" @3192
 			location   	(656, 272)
 			font       	(object Font
 			    size       	10
@@ -67165,7 +67568,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@3183
+			    Parent_View 	@3192
 			    location   	(512, 188)
 			    nlines     	2
 			    max_width  	288
@@ -67177,7 +67580,7 @@
 			quidu      	"39C926610018"
 			width      	300
 			height     	180)
-		    (object CategoryView "Logical View::org" @3184
+		    (object CategoryView "Logical View::org" @3193
 			location   	(1104, 272)
 			font       	(object Font
 			    size       	10
@@ -67189,7 +67592,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@3184
+			    Parent_View 	@3193
 			    location   	(960, 188)
 			    nlines     	2
 			    max_width  	288
@@ -67210,7 +67613,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object NoteView @3185
+		    (object NoteView @3194
 			location   	(224, 624)
 			font       	(object Font
 			    size       	10
@@ -67225,7 +67628,7 @@
 			fill_color 	12632256
 			width      	300
 			height     	132)
-		    (object NoteView @3186
+		    (object NoteView @3195
 			location   	(704, 624)
 			font       	(object Font
 			    size       	10
@@ -67240,7 +67643,7 @@
 			fill_color 	8421631
 			width      	300
 			height     	132)
-		    (object NoteView @3187
+		    (object NoteView @3196
 			location   	(1200, 624)
 			font       	(object Font
 			    size       	10
@@ -67255,7 +67658,7 @@
 			fill_color 	12615680
 			width      	300
 			height     	132)
-		    (object NoteView @3188
+		    (object NoteView @3197
 			location   	(1664, 624)
 			font       	(object Font
 			    size       	10
@@ -67270,7 +67673,7 @@
 			fill_color 	16777215
 			width      	300
 			height     	132)
-		    (object Label @3189
+		    (object Label @3198
 			location   	(81, 369)
 			font       	(object Font
 			    size       	12
@@ -67285,7 +67688,7 @@
 			max_width  	1163
 			justify    	1
 			label      	"J2EE: Java 2 Platform, Enterprise Edition - v 1.2.1")
-		    (object Label @3190
+		    (object Label @3199
 			location   	(96, 608)
 			font       	(object Font
 			    size       	10
@@ -67300,7 +67703,7 @@
 			max_width  	268
 			justify    	1
 			label      	"Abstract Class")
-		    (object Label @3191
+		    (object Label @3200
 			location   	(592, 608)
 			font       	(object Font
 			    size       	10
@@ -67315,7 +67718,7 @@
 			max_width  	225
 			justify    	1
 			label      	"Final Class")
-		    (object Label @3192
+		    (object Label @3201
 			location   	(1104, 608)
 			font       	(object Font
 			    size       	10
@@ -67330,7 +67733,7 @@
 			max_width  	206
 			justify    	1
 			label      	"Interface")
-		    (object Label @3193
+		    (object Label @3202
 			location   	(1552, 608)
 			font       	(object Font
 			    size       	10
