@@ -76949,7 +76949,7 @@
 							ordinal    	2
 							quidu      	"000000000000"
 							creation   	FALSE)
-						    (object Message "Lay danh sach san pham da ban le"
+						    (object Message "Lay danh sach san pham da ban "
 							quid       	"5A2AB058018D"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -77099,7 +77099,7 @@
 						supplier   	"$UNNAMED$487"
 						quidu      	"5A303B530361"
 						messages   	(list Messages
-						    (object Message "Lay ten cac san pham da  ban"
+						    (object Message "Lay ten cac san pham da ban"
 							quid       	"5A303C890130"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -77239,7 +77239,7 @@
 					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	7
-					    max_width  	650
+					    max_width  	675
 					    justify    	1)
 					width      	670
 					height     	482
@@ -77288,7 +77288,7 @@
 					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	7
-					    max_width  	653
+					    max_width  	681
 					    justify    	1)
 					width      	674
 					height     	482
@@ -77310,7 +77310,7 @@
 					    default_color 	TRUE)
 					label      	(object ItemLabel
 					    Parent_View 	@3720
-					    location   	(1537, 214)
+					    location   	(1537, 139)
 					    fill_color 	13434879
 					    nlines     	1
 					    max_width  	990
@@ -77323,7 +77323,56 @@
 					quidu      	"5A2AAB9D0174"
 					compartment 	(object Compartment
 					    Parent_View 	@3720
-					    location   	(1537, 319)
+					    location   	(1537, 244)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	16777215
+					    anchor     	2
+					    nlines     	7
+					    max_width  	625
+					    justify    	1)
+					width      	1008
+					height     	482
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Boundary::ThongKeLuongHangBanNhieuNhatTrongThangForm" @3721
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(752, 368)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@3721
+					    location   	(267, 214)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	970
+					    justify    	0
+					    label      	"ThongKeLuongHangBanNhieuNhatTrongThangForm")
+					icon       	"Boundary"
+					icon_style 	"None"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5A2AAA770311"
+					compartment 	(object Compartment
+					    Parent_View 	@3721
+					    location   	(267, 319)
 					    font       	(object Font
 						size       	10
 						face       	"Arial"
@@ -77337,63 +77386,14 @@
 					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	4
-					    max_width  	653
+					    max_width  	678
 					    justify    	1)
-					width      	1008
+					width      	988
 					height     	332
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Boundary::ThongKeLuongHangBanNhieuNhatTrongThangForm" @3721
-					ShowCompartmentStereotypes 	TRUE
-					IncludeAttribute 	TRUE
-					IncludeOperation 	TRUE
-					location   	(640, 400)
-					font       	(object Font
-					    size       	10
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@3721
-					    location   	(155, 196)
-					    fill_color 	13434879
-					    nlines     	1
-					    max_width  	970
-					    justify    	0
-					    label      	"ThongKeLuongHangBanNhieuNhatTrongThangForm")
-					icon       	"Boundary"
-					icon_style 	"None"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"5A2AAA770311"
-					compartment 	(object Compartment
-					    Parent_View 	@3721
-					    location   	(155, 301)
-					    font       	(object Font
-						size       	10
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    icon_style 	"Icon"
-					    fill_color 	16777215
-					    anchor     	2
-					    nlines     	6
-					    max_width  	722
-					    justify    	1)
-					width      	988
-					height     	432
-					annotation 	8
-					autoResize 	TRUE)
 				    (object AssociationViewNew "$UNNAMED$478" @3722
-					location   	(1330, 383)
+					location   	(1386, 368)
 					font       	(object Font
 					    size       	10
 					    face       	"Arial"
@@ -77409,27 +77409,27 @@
 					roleview_list 	(list RoleViews
 					    (object RoleView "$UNNAMED$479" @3723
 						Parent_View 	@3722
-						location   	(690, -17)
+						location   	(746, -32)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"5A2ABBE703D7"
 						client     	@3722
 						supplier   	@3720
 						vertices   	(list Points
-						    (1330, 383)
-						    (1527, 379))
+						    (1386, 368)
+						    (1527, 368))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$480" @3724
 						Parent_View 	@3722
-						location   	(690, -17)
+						location   	(746, -32)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"5A2ABBE703D9"
 						client     	@3722
 						supplier   	@3721
 						vertices   	(list Points
-						    (1330, 383)
-						    (1134, 388))
+						    (1386, 368)
+						    (1246, 368))
 						line_style 	0)))
 				    (object ClassView "Class" "Logical View::Entity::HoaDonLe" @3725
 					ShowCompartmentStereotypes 	TRUE
@@ -77474,7 +77474,7 @@
 					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	7
-					    max_width  	422
+					    max_width  	443
 					    justify    	1)
 					width      	442
 					height     	482
@@ -77523,7 +77523,7 @@
 					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	8
-					    max_width  	416
+					    max_width  	437
 					    justify    	1)
 					width      	436
 					height     	532
@@ -77581,7 +77581,7 @@
 					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	12
-					    max_width  	450
+					    max_width  	471
 					    justify    	1)
 					width      	470
 					height     	788
@@ -77634,7 +77634,7 @@
 						supplier   	@3727
 						vertices   	(list Points
 						    (2385, 1749)
-						    (2139, 2106))
+						    (2139, 2104))
 						line_style 	0
 						label      	(object SegLabel @3731
 						    Parent_View 	@3729
@@ -77698,7 +77698,7 @@
 						supplier   	@3725
 						vertices   	(list Points
 						    (2385, 1749)
-						    (2632, 1393))
+						    (2631, 1393))
 						line_style 	0
 						label      	(object SegLabel @3734
 						    Parent_View 	@3732
@@ -77880,7 +77880,7 @@
 					client     	@3720
 					supplier   	@3726
 					vertices   	(list Points
-					    (1867, 534)
+					    (1794, 609)
 					    (1466, 944))
 					line_style 	0)
 				    (object UsesView "" @3745
@@ -77890,7 +77890,7 @@
 					client     	@3720
 					supplier   	@3725
 					vertices   	(list Points
-					    (2195, 534)
+					    (2269, 609)
 					    (2578, 925))
 					line_style 	0)))
 			    (object InteractionDiagram "Thong ke luong hang ban nhieu nhat trong thang"
@@ -77900,7 +77900,7 @@
 				zoom       	75
 				max_height 	28350
 				max_width  	21600
-				origin_x   	584
+				origin_x   	0
 				origin_y   	533
 				items      	(list diagram_item_list
 				    (object InterObjView "$UNNAMED$481" @3746
@@ -78165,7 +78165,7 @@
 					    location   	(3472, 250)
 					    anchor_loc 	1
 					    nlines     	2
-					    max_width  	450
+					    max_width  	462
 					    justify    	0
 					    label      	"Lay so luong san pham da ban si")
 					icon       	"entity"
@@ -78173,7 +78173,7 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5A2AB05801B2"
-					width      	462
+					width      	154
 					height     	2948
 					icon_height 	153
 					icon_width 	154
@@ -78202,7 +78202,7 @@
 					    location   	(3984, 250)
 					    anchor_loc 	1
 					    nlines     	2
-					    max_width  	426
+					    max_width  	462
 					    justify    	0
 					    label      	"")
 					icon       	"Entity"
@@ -78210,10 +78210,10 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5A303B3B0159"
-					width      	300
+					width      	154
 					height     	2948
-					icon_height 	141
-					icon_width 	142
+					icon_height 	153
+					icon_width 	154
 					icon_y_offset 	0
 					annotation 	1
 					Focus_Of_Control 	(object Focus_Of_Control "" @3771
@@ -78239,7 +78239,7 @@
 					    location   	(4528, 250)
 					    anchor_loc 	1
 					    nlines     	2
-					    max_width  	375
+					    max_width  	462
 					    justify    	0
 					    label      	"")
 					icon       	"Entity"
@@ -78247,7 +78247,7 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5A2AC47C0119"
-					width      	386
+					width      	154
 					height     	2948
 					icon_height 	153
 					icon_width 	154
@@ -78276,7 +78276,7 @@
 					    location   	(5008, 250)
 					    anchor_loc 	1
 					    nlines     	2
-					    max_width  	426
+					    max_width  	462
 					    justify    	0
 					    label      	"")
 					icon       	"entity"
@@ -78284,10 +78284,10 @@
 					line_color 	3342489
 					fill_color 	13434879
 					quidu      	"5A303B530361"
-					width      	300
+					width      	154
 					height     	2948
-					icon_height 	141
-					icon_width 	142
+					icon_height 	153
+					icon_width 	154
 					icon_y_offset 	0
 					annotation 	1
 					Focus_Of_Control 	(object Focus_Of_Control "" @3775
@@ -78432,7 +78432,7 @@
 					origin     	(2128, 626)
 					terminus   	(1120, 626)
 					ordinal    	2)
-				    (object InterMessView "Lay danh sach san pham da ban le" @3783
+				    (object InterMessView "Lay danh sach san pham da ban " @3783
 					location   	(16, 960)
 					font       	(object Font
 					    size       	10
@@ -78458,9 +78458,9 @@
 					    quidu      	"5A2AB058018D"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	730
+					    max_width  	672
 					    justify    	0
-					    label      	"Lay danh sach san pham da ban le"
+					    label      	"Lay danh sach san pham da ban"
 					    pctDist    	0.500000
 					    height     	45
 					    orientation 	0)
@@ -78632,7 +78632,7 @@
 					origin     	(2159, 1968)
 					terminus   	(4512, 1968)
 					ordinal    	10)
-				    (object InterMessView "Lay ten cac san pham da  ban" @3793
+				    (object InterMessView "Lay ten cac san pham da ban" @3793
 					location   	(16, 2181)
 					font       	(object Font
 					    size       	10
@@ -78658,9 +78658,9 @@
 					    quidu      	"5A303C890130"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	652
+					    max_width  	629
 					    justify    	0
-					    label      	"Lay ten cac san pham da  ban"
+					    label      	"Lay ten cac san pham da ban"
 					    pctDist    	0.500000
 					    height     	45
 					    orientation 	0)
@@ -79608,7 +79608,7 @@
 			quid       	"5A2AAA770311"
 			stereotype 	"Boundary"
 			operations 	(list Operations
-			    (object Operation "LayDanhSachSanPhamDaBanLe"
+			    (object Operation "LayDanhSachSanPhamDaBan"
 				quid       	"5A2AB447011D"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
@@ -79618,17 +79618,7 @@
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0)
-			    (object Operation "LayDanhSachSanPhamDaBanSi"
-				quid       	"5A2AB4B2004C"
-				concurrency 	"Sequential"
-				opExportControl 	"Public"
-				uid        	0)
-			    (object Operation "HienThiDanhSachSanPhamDaBanLe"
-				quid       	"5A2AB598028C"
-				concurrency 	"Sequential"
-				opExportControl 	"Public"
-				uid        	0)
-			    (object Operation "HienThiDanhSachSanPhamDaBanSi"
+			    (object Operation "HienThiDanhSachSanPhamDaBan"
 				quid       	"5A2AB5A70025"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
@@ -80323,13 +80313,28 @@
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0)
-			    (object Operation "LayDanhSachSanPhamDaBanLe"
+			    (object Operation "LaySoHoaDonLe"
 				quid       	"5A2AB8930141"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0)
-			    (object Operation "LayDanhSachSanPhamDaBanSi"
+			    (object Operation "LaySoHoaDonSi"
 				quid       	"5A2AB8B20319"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LaySoLuongSanPhamDaBanLe"
+				quid       	"5A3042A600B7"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LaySoLuongSanPhamDaBanSi"
+				quid       	"5A3042B201B1"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "LayTenCacSanPhamDaBan"
+				quid       	"5A3042BF0322"
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0)))

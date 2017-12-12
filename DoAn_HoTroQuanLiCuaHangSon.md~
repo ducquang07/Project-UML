@@ -76981,7 +76981,7 @@
 						supplier   	"$UNNAMED$482"
 						quidu      	"5A2AB0580180"
 						messages   	(list Messages
-						    (object Message "Hien thi danh sach cac san pham da dc ban"
+						    (object Message "Hien thi danh sach cac san pham da duoc ban"
 							quid       	"5A303DE6034E"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -77900,7 +77900,7 @@
 				zoom       	75
 				max_height 	28350
 				max_width  	21600
-				origin_x   	0
+				origin_x   	584
 				origin_y   	533
 				items      	(list diagram_item_list
 				    (object InterObjView "$UNNAMED$481" @3746
@@ -78872,7 +78872,7 @@
 					origin     	(4992, 2286)
 					terminus   	(2160, 2286)
 					ordinal    	13)
-				    (object SelfMessView "Hien thi danh sach cac san pham da dc ban" @3805
+				    (object SelfMessView "Hien thi danh sach cac san pham da duoc ban" @3805
 					location   	(16, 2400)
 					font       	(object Font
 					    size       	10
@@ -78898,9 +78898,9 @@
 					    quidu      	"5A303DE6034E"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	910
+					    max_width  	956
 					    justify    	0
-					    label      	"Hien thi danh sach cac san pham da dc ban"
+					    label      	"Hien thi danh sach cac san pham da duoc ban"
 					    pctDist    	2.320000
 					    height     	45
 					    orientation 	0)
