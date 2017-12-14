@@ -33510,7 +33510,7 @@
 							ordinal    	17
 							quidu      	"000000000000"
 							creation   	FALSE)
-						    (object Message "Thong tin DDH"
+						    (object Message "Lay thong tin DDH"
 							quid       	"5A30E6DE00DD"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -35086,7 +35086,7 @@
 				zoom       	100
 				max_height 	28350
 				max_width  	21600
-				origin_x   	644
+				origin_x   	656
 				origin_y   	919
 				items      	(list diagram_item_list
 				    (object InterObjView "$UNNAMED$215" @1543
@@ -36934,7 +36934,7 @@
 				zoom       	100
 				max_height 	28350
 				max_width  	21600
-				origin_x   	325
+				origin_x   	0
 				origin_y   	12
 				items      	(list diagram_item_list
 				    (object InterObjView "$UNNAMED$224" @1656
@@ -38855,11 +38855,11 @@
 					    location   	(1392, 3056)
 					    line_color 	3342489
 					    InterObjView 	@1777
-					    height     	204
-					    y_coord    	114
+					    height     	218
+					    y_coord    	128
 					    Nested     	FALSE)
 					Focus_Of_Control 	(object Focus_Of_Control "" @1781
-					    location   	(1392, 3200)
+					    location   	(1392, 3216)
 					    line_color 	3342489
 					    InterObjView 	@1777
 					    height     	90
@@ -39531,7 +39531,7 @@
 					terminus   	(768, 2596)
 					ordinal    	16)
 				    (object SelfMessView "Hien thi thông tin don dat hang" @1835
-					location   	(16, 3167)
+					location   	(16, 3184)
 					font       	(object Font
 					    size       	10
 					    face       	"Arial"
@@ -39543,7 +39543,7 @@
 					    default_color 	TRUE)
 					label      	(object SegLabel @1836
 					    Parent_View 	@1835
-					    location   	(1784, 3125)
+					    location   	(1784, 3142)
 					    font       	(object Font
 						size       	10
 						face       	"Arial"
@@ -39567,8 +39567,8 @@
 					supplier   	@1777
 					Focus_Src  	@1780
 					Focus_Entry 	@1781
-					origin     	(1408, 3167)
-					terminus   	(1558, 3167)
+					origin     	(1408, 3184)
+					terminus   	(1558, 3184)
 					ordinal    	20)
 				    (object InterMessView "Lay thong tin DDH" @1837
 					location   	(16, 4345)
@@ -40745,7 +40745,7 @@
 					origin     	(4608, 2195)
 					terminus   	(2032, 2195)
 					ordinal    	14)
-				    (object InterMessView "Thong tin DDH" @1896
+				    (object InterMessView "Lay thong tin DDH" @1896
 					location   	(16, 3056)
 					font       	(object Font
 					    size       	10
@@ -40771,9 +40771,9 @@
 					    quidu      	"5A30E6DE00DD"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	332
+					    max_width  	397
 					    justify    	0
-					    label      	"Thong tin DDH"
+					    label      	"Lay thong tin DDH"
 					    pctDist    	0.500000
 					    height     	45
 					    orientation 	0)
@@ -42101,7 +42101,7 @@
 							ordinal    	0
 							quidu      	"000000000000"
 							creation   	FALSE)
-						    (object Message "Lay thong tin chi tiet phieu nhap"
+						    (object Message "Lay thong tin  phieu nhap"
 							quid       	"5A01C0AB00CC"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -42160,7 +42160,7 @@
 							ordinal    	4
 							quidu      	"000000000000"
 							creation   	FALSE)
-						    (object Message "Hien thi thong tin chi tiet phieu nhap"
+						    (object Message "Hien thi thong tin phieu nhap"
 							quid       	"5A01C1340168"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -42192,7 +42192,7 @@
 							ordinal    	18
 							quidu      	"000000000000"
 							creation   	FALSE)
-						    (object Message "Thong tin phieu nhap"
+						    (object Message "Lay thong tin phieu nhap"
 							quid       	"5A30EB2C00AD"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
@@ -43962,8 +43962,8 @@
 				zoom       	85
 				max_height 	28350
 				max_width  	21600
-				origin_x   	0
-				origin_y   	2323
+				origin_x   	331
+				origin_y   	2324
 				items      	(list diagram_item_list
 				    (object InterObjView "$UNNAMED$260" @1975
 					location   	(256, 224)
@@ -47723,7 +47723,7 @@
 				zoom       	100
 				max_height 	28350
 				max_width  	21600
-				origin_x   	200
+				origin_x   	0
 				origin_y   	900
 				items      	(list diagram_item_list
 				    (object InterObjView "$UNNAMED$278" @2204
@@ -48608,7 +48608,7 @@
 					origin     	(191, 1268)
 					terminus   	(544, 1268)
 					ordinal    	5)
-				    (object InterMessView "Lay thong tin chi tiet phieu nhap" @2279
+				    (object InterMessView "Lay thong tin  phieu nhap" @2279
 					location   	(16, 1373)
 					font       	(object Font
 					    size       	10
@@ -48634,9 +48634,9 @@
 					    quidu      	"5A01C0AB00CC"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	610
+					    max_width  	485
 					    justify    	0
-					    label      	"Lay thong tin chi tiet phieu nhap"
+					    label      	"Lay thong tin  phieu nhap"
 					    pctDist    	0.500000
 					    height     	45
 					    orientation 	0)
@@ -48688,7 +48688,7 @@
 					origin     	(1471, 1692)
 					terminus   	(2736, 1692)
 					ordinal    	9)
-				    (object SelfMessView "Hien thi thong tin chi tiet phieu nhap" @2283
+				    (object SelfMessView "Hien thi thong tin phieu nhap" @2283
 					location   	(16, 2427)
 					font       	(object Font
 					    size       	10
@@ -48714,9 +48714,9 @@
 					    quidu      	"5A01C1340168"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	701
+					    max_width  	563
 					    justify    	0
-					    label      	"Hien thi thong tin chi tiet phieu nhap"
+					    label      	"Hien thi thong tin phieu nhap"
 					    pctDist    	0.500000
 					    height     	45
 					    orientation 	0)
@@ -48741,7 +48741,7 @@
 					    default_color 	TRUE)
 					label      	(object SegLabel @2286
 					    Parent_View 	@2285
-					    location   	(367, 2648)
+					    location   	(366, 2649)
 					    font       	(object Font
 						size       	10
 						face       	"Arial"
@@ -48757,8 +48757,8 @@
 					    max_width  	485
 					    justify    	0
 					    label      	"Yeu cau sua phieu nhap"
-					    pctDist    	0.500000
-					    height     	45
+					    pctDist    	0.498584
+					    height     	44
 					    orientation 	0)
 					line_color 	3342489
 					client     	@2204
@@ -50023,7 +50023,7 @@
 					origin     	(4320, 2217)
 					terminus   	(1472, 2217)
 					ordinal    	14)
-				    (object InterMessView "Thong tin phieu nhap" @2350
+				    (object InterMessView "Lay thong tin phieu nhap" @2350
 					location   	(16, 3328)
 					font       	(object Font
 					    size       	10
@@ -50049,9 +50049,9 @@
 					    quidu      	"5A30EB2C00AD"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	435
+					    max_width  	501
 					    justify    	0
-					    label      	"Thong tin phieu nhap"
+					    label      	"Lay thong tin phieu nhap"
 					    pctDist    	0.458853
 					    height     	91
 					    orientation 	0)
